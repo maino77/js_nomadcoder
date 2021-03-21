@@ -7,13 +7,20 @@ body {
     
   }
 
-h1{
-    font-size: 20px;
-    text-align: right;
-    margin: 0;
-    font-family: 'Rajdhani', sans-serif;
-}
-
+  h1{
+      font-size: 20px;
+      text-align: right;
+      margin: 0;
+      font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .rightUp{
+        position: absolute;
+        height: 0;
+        right: 0;
+        padding: 20px;
+    }
+    
 .day{
     font-size: 20px;
     text-align: right;
@@ -82,12 +89,6 @@ h1{
     animation: fadein 1s  linear;
     
 }
-.rightUp{
-    position: absolute;
-    height: 0;
-    right: 0;
-    padding: 20px;
-}
 
 .rightDown{
     position: absolute;
@@ -95,5 +96,3 @@ h1{
     right: 0;
     padding: 20px;
 }
-
-
