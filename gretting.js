@@ -27,7 +27,8 @@ function paintGreeting(text){
     //페인트를 칠하려면 폼을 숨겨야 한다.
     form.classList.remove(SHOWING_CN);
     greeting.classList.add(SHOWING_CN);
-    greeting.innerText = `Hello ${text}`;
+    greeting.innerText = `Hello ${text}
+    Tell me what do you do today?`;
 }
 
 //이 함수의 역할은 로컬 스토리지에서 가져오는 역할.
